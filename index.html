@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="icon" type="image/vnd.icon" href="logo.png">
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Le jardin de Léa</title>
+
+</head>
+
+<body>
+<header> 
+    <!-- L'entête de la page, je pense partir sur du vert foncé --> 
+<h1>Bienvenue sur notre boutique ! </h1>
+<nav>
+<a href="#produits"> Nos produits</a>
+    <a href="#histoire"> Notre histoire</a>
+        <a href="#contact"> Nous contacter</a>
+</nav>
+        </header>
+
+        <section id="resume" >
+<img src="logo.png" alt="Logo de la boutique">
+<p>Les plantes, notre passion !</p>
+        </section>
+
+        <div class="texteresume">
+<p>Le Jardin de Léa, c’est une boutique urbaine dédiée aux plantes d’intérieur et à l’art de vivre green. On y trouve des plantes stylées, des pots design, et des conseils cool <br> pour entretenir son petit coin de jungle. Minimaliste ou bohème, débutant ou plant lover aguerri — ici, tout le monde trouve sa vibe végétale.</p>
+
+        </div>
+
+        <section class="products">
+            <h2>Nos produits</h2>
+            <div class="grid">
+              <img src="plante1.png" alt="Plante 1">
+              <img src="plante2.jpg" alt="Plante 2">
+              <img src="plante3.jpg" alt="Plante 3">
+              <img src="plante4.jpg" alt="Plante 4">
+              <img src="plante5.jpg" alt="Plante 5">
+            </div>
+          </section>
+
+          <section id="histoire">
+<h3>Notre histoire</h3>
+<div class="textehistoire">
+            <p>
+                Le Jardin de Léa est né d’un simple besoin : ramener un peu de nature dans nos vies trop connectées.<br>
+                En 2021, Léa, passionnée de plantes et de déco, décide de quitter son job dans la com’ pour ouvrir une petite boutique à Lyon, dans un ancien atelier de quartier baigné de lumière.<br><br>
+              
+                Au départ, quelques plantes, des pots chinés et une ambiance douce. Très vite, la boutique devient un lieu de passage incontournable pour les amateurs de verdure.<br>
+                On y vient pour acheter une plante, mais aussi pour échanger des conseils, des idées, et souvent… des sourires.<br><br>
+              
+                Aujourd’hui, Le Jardin de Léa, c’est une sélection pointue de plantes d’intérieur, des créations locales, des objets durables, et une vraie passion partagée avec chaque client.<br>
+                On travaille avec des producteurs français et européens, on mise sur la qualité plutôt que la quantité, et on adore vous aider à créer votre jungle perso.<br><br>
+              
+                Que vous ayez la main verte ou pas, ici, vous trouverez de quoi faire pousser votre coin de bien-être. 🌿
+              </p>
+              </div>
+          </section>
+
+          <section id="contact">
+
+<h4>Nous contacter</h4>
+
+<form action="traitement.php" method="post">
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" required>
+
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="sujet">Sujet :</label>
+    <input type="text" id="sujet" name="sujet">
+
+    <label for="message">Message :</label>
+    <textarea id="message" name="message" rows="6" required></textarea>
+
+    <button type="submit">Envoyer</button>
+  </form>
+          </section>
+
+          <footer>
+            <nav>
+                <a href="#produits"> Nos produits</a>
+                    <a href="#histoire"> Notre histoire</a>
+                        <a href="#contact"> Nous contacter</a>
+                </nav>
+
+                <div class="droit">
+                    <p>&copy; 2025 Les jardins de Léa. Tous droits réservés.</p>
+                  </div>
+          </footer>
+</body>
+</html>
